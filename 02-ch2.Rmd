@@ -159,7 +159,7 @@ executing the following code chunk:
 <div class="unfolded"> 
 ```{r, echo = T, eval = T, message = F, warning = F, fig.align='center'} 
 # compute cumulative probabilities
-prob <- dbinom(x = 0:10, 
+prob <- pbinom(x = 0:10, 
                size = 10, 
                prob = 0.5)
 
